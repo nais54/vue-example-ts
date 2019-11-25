@@ -1,7 +1,7 @@
 <template>
   <div>
     <CounterView :cnt="cnt" />
-    <CounterControl :cnt="cnt" @emitEvent="emitEvent" />
+    <CounterControl :cnt="cnt" @setCnt="setCnt" />
   </div>
 </template>
 
@@ -24,7 +24,7 @@ export default class Counter extends Vue {
     super();
   }
 
-  public emitEvent(value: number) {
+  public setCnt(value: number) {
     this.cnt = value;
   }
 }

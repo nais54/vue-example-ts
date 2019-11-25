@@ -26,12 +26,12 @@ export default class CounterControl extends Vue {
 
   public increament() {
     this.count++;
-    this.$emit("emitEvent", this.count);
+    this.$emit("setCnt", this.count);
   }
 
   public decreament() {
     this.count--;
-    this.$emit("emitEvent", this.count);
+    this.$emit("setCnt", this.count);
   }
 }
 </script>

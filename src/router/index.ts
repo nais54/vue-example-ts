@@ -28,6 +28,16 @@ const routes = [
     name: "score",
     component: () => import("../views/Score.vue"),
   },
+  {
+    path: "/gridag",
+    name: "gridag",
+    component: () => import("../views/GridAg.vue"),
+  },
+  {
+    path: "/gridtoast",
+    name: "gridtoast",
+    component: () => import("../views/GridToast.vue"),
+  },
 ];
 
 const router = new VueRouter({

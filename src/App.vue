@@ -3,7 +3,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
       <router-link to="/counter">Counter</router-link> |
-      <router-link to="/score">Score</router-link>
+      <router-link to="/score">Score</router-link> |
+      <router-link to="/gridag">GridAg</router-link> |
+      <router-link to="/gridtoast">GridToast</router-link>
     </div>
     <router-view />
   </div>

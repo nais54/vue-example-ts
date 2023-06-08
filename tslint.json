@@ -41,7 +41,7 @@
     "one-line": [true, "check-catch", "check-else", "check-open-brace", "check-whitespace"],
     "object-literal-sort-keys": false,
     "ordered-imports": [
-      true,
+      false,
       {
         "import-sources-order": "lowercase-first",
         "named-imports-order": "lowercase-first"
